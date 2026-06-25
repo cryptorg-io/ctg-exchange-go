@@ -23,7 +23,7 @@
       "body": "",
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "canonical_string": "1700000000\nGET\n/api/v1/me/orders/CTGUSDT?limit=50\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "expected_signature": "901ddc1ec4f3d133b28831027aa6cbe34fcf7d139b94c88728ac21accd6fad37"
+      "expected_signature": "c52d2d2d5cfd60c7000685fe10e01139a6d7cbd9fc86f2047ea5915edc959aae"
     },
     {
       "name": "post_place_order",
@@ -33,7 +33,7 @@
       "body": "{\"client_order_id\":\"test-1\",\"side\":\"buy\",\"type\":\"limit\",\"price\":\"3500.55\",\"qty\":\"0.01000000\"}",
       "body_sha256": "cd5bf79e67237ebaf4bec261c2b4487fb35aeb700bc1115d01e0b3fee68aa42b",
       "canonical_string": "1700000000\nPOST\n/api/v1/me/orders/CTGUSDT\ncd5bf79e67237ebaf4bec261c2b4487fb35aeb700bc1115d01e0b3fee68aa42b",
-      "expected_signature": "8b8a88771513b185eab6665134c7f51a6397bbecd4a94a904761710acbee7d77"
+      "expected_signature": "690196f24e98bae13f85b55b5ca7756ae692c17d0757122ba77cc12bc9aab2e6"
     },
     {
       "name": "delete_cancel_all",
@@ -43,7 +43,7 @@
       "body": "",
       "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "canonical_string": "1700000000\nDELETE\n/api/v1/me/orders/CTGUSDT\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "expected_signature": "21419a280c9bcb4e2b22edc8c9d67969321518978ad962d6fa64cc288baed52b"
+      "expected_signature": "b03fd15bacd211a6f1f4c26edc4be2788fbace43c36288a72c53cc8005f49879"
     }
   ],
   "ws_auth": [
